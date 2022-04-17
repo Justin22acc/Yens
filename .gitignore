@@ -1,41 +1,17 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+local plr = game.Players.LocalPlayer.Name
+if plr == "proazo123coso" or plr == "irvinyahir" or plr == "Fantasma7w7r" 
+or plr == "makikazumi" or plr == "8LMNTRIX8" then
+    game.StarterGui:SetCore("SendNotification",{Title = "script activado", Text = "Cuando quieras ejecuta el otro script", Duration = 10})
+    function tickets()
+        game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer("LotteryRandomDraw")
+        end
+        while wait() do
+        for i=0,233333 do
+            for i=0,5000000000000000000000000000000000000000000000000000000000000000 do
+                tickets()
+            end
+            
+            end
+        end
+    else game.StarterGui:SetCore("SendNotification",{Title = "script no activado", Text = "Usuario no registrado", Duration = 10})
+end
