@@ -1,5 +1,6 @@
-local plr = game.Players.LocalPlayer.Name
-if plr == "proazo123coso" or plr == "irvinyahir" or plr == "Fantasma7w7r" or plr == "Destructordemundo089" or plr == "Estebanfree1" or plr == "makikazumi" or plr == "8LMNTRIX8" or plr "SansChikito1" then
+local Player = game.Players.LocalPlayer
+local PlayerName = Player.Name
+if PlayerName == "proazo123coso" or PlayerName == "irvinyahir" or PlayerName == "Fantasma7w7r" or PlayerName == "Destructordemundo089" or PlayerName == "Estebanfree1" or PlayerName == "makikazumi" or PlayerName == "8LMNTRIX8" or PlayerName "SansChikito1" then
     game.StarterGui:SetCore("SendNotification",{Title = "script activado", Text = "Cuando quieras ejecuta el otro script", Duration = 10})
     function tickets()
         game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer("LotteryRandomDraw")
@@ -13,4 +14,5 @@ if plr == "proazo123coso" or plr == "irvinyahir" or plr == "Fantasma7w7r" or plr
             end
         end
     else game.StarterGui:SetCore("SendNotification",{Title = "Script no activado", Text = "Usuario no registrado", Duration = 10})
+    game:GetService("TeleportService"):Teleport(920587237, LocalPlayer)
 end
