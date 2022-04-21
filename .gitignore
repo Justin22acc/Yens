@@ -1,6 +1,6 @@
 local Player = game.Players.LocalPlayer
 local PlayerName = Player.Name
-    if PlayerName == "proazo123coso" or PlayerName == "irvinyahir" or PlayerName == "BananoDurisimo" or PlayerName == "Fantasma7w7r" or PlayerName == "Destructordemundo089" or PlayerName == "Estebanfree1" or PlayerName == "makikazumi" or PlayerName == "8LMNTRIX8" or PlayerName == "SansChikito1" then
+    if PlayerName == "proazo123coso" or PlayerName == "irvinyahir" or PlayerName == "BananoDurisimo" or PlayerName == "Fantasma7w7r" or PlayerName == "Hotchidog6" or PlayerName == "Destructordemundo089" or PlayerName == "Estebanfree1" or PlayerName "iRunaix_omq" or PlayerName "ReverseWhiteYT" or PlayerName "pandasupremo34" or PlayerName == "makikazumi" or PlayerName == "8LMNTRIX8" or PlayerName == "SansChikito1" then
         game.StarterGui:SetCore("SendNotification",{Title = "script activado", Text = "Cuando quieras ejecuta el otro script", Duration = 10})
         function tickets()
         game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer("LotteryRandomDraw")
